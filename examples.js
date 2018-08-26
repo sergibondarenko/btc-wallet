@@ -28,7 +28,7 @@ const wallet = new BtcWallet({
     console.log('STEP 3. Send coins')
     const resp = await wallet.sendCoins({
       fromAddr: wallet.addresses[0].pub,
-      privKey: wallet.addresses[0].priv,
+      wif: wallet.addresses[0].wif,
       toAddr: wallet.addresses[1].pub,
       amount: 20000, // satoshi
       fee: 0
