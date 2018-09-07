@@ -23,8 +23,7 @@
     "bip39": "^2.5.0",
     "bitcoinjs-lib": "^4.0.1",
     "blockchain.info": "^2.12.1",
-    "crypto": "^1.0.1",
-    "lodash": "^4.17.10",
+    "pouchdb": "^7.0.0",
     "wif": "^2.0.6"
   }
 }

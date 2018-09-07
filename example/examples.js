@@ -1,4 +1,4 @@
-const BtcWallet = require('./lib/wallet')
+const BtcWallet = require('../lib/wallet')
 
 const wallet = new BtcWallet({
   testnet: true
